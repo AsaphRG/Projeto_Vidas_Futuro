@@ -1,0 +1,275 @@
+
+
+/*Index*/
+
+.conteinerMasterIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.conteinerApresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    padding-bottom: 150px;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.logo{
+    flex: 2;
+}
+
+.conteinerTexto{
+    width: 65%;
+}
+
+.apresentacao{
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+
+.conteinerMasterComoAtuamos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.tituloComoAtuamos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteinerConteudoComoAtuamos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.conteinerViolenciaMulher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.imgviolenciaMulher{
+    width: 343px;
+    height: 336px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.conteinerViolenciaMulher a{
+    color: #3D65AD;
+    text-decoration: none;
+}
+
+.conteinerCestasBasicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.imgCestasBasicas{
+    width: 343px;
+    height: 336px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.conteinerCestasBasicas a {
+    color: #3D65AD;
+    text-decoration: none;
+}
+
+.conteinerReforcoEscolar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.imgReforcoEscolar{
+    width: 343px;
+    height: 336px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.conteinerReforcoEscolar a {
+    color: #3D65AD;
+    text-decoration: none;
+}
+
+.conteinerMuayThai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.imgLuta{
+    width: 343px;
+    height: 336px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.conteinerMuayThai a {
+    color: #3D65AD;
+    text-decoration: none;
+}
+
+.conteinerMasterParceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+
+.tituloParceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1200px;
+}
+
+.conteinerConteudoParceiros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.conteinerParceiros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.fotoParceiro{
+    width: 273px;
+    height: 240px;
+}
+
+.ConteinerApresentacaoParceiro{
+    padding: 0px 20px;
+}
+
+.ConteinerApresentacaoParceiro a{
+    text-decoration: none;
+    color: #3D65AD;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.conteinerMasterNewsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+.conteudoNewsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.campoLado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.campoEmail{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.assinar{
+    background-color: #F2C641;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.avisos{
+    margin: 15px;
+}
+
+.conteinerPoliticaPrivacidade{
+    display: flex;
+    flex-direction: row;
+}
+
+.campoPoliticaPrivacidade{
+    margin-right: 5px;
+}
+
+.aviso2{
+    display: flex;
+    flex-direction: row;
+}
+
+.aviso2 p{
+    margin-left: 3px;
+}
+
+.voltarTopo{
+    position: relative;
+    left: 45%;
+    bottom: 2%;
+}
+
+.voltarTopo a {
+    position: fixed;
+    color: #F2C641;
+    bottom: inherit;
+    right: inherit;
+
+}

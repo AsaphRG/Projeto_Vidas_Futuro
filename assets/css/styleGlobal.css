@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteinerMasterCabecalho{
+    width: 100%;
+    height: 12vh;
+    background-color: #3D65AD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerMenu .menuItem{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: bold;
+    height: 50px;
+}
+
+.active{
+    background-image: url(../imagens/star.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: bottom 1px right 50%;
+}
+
+.menuItem:hover{
+    background-image: url(../imagens/star.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: bottom 1px right 50%;
+}
+
+
+/*rodapé*/
+
+.conteinerMasterRodape{
+    width: 100%;
+    height: 25vh;
+    background-color: #3D65AD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #F2F2F2;
+    flex-wrap: wrap;
+}
+
+.iconesContatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteinerEmail a{
+    display: flex;
+    flex-direction: row;
+    color:#F2F2F2;
+    text-decoration: none;
+}
+
+.textoEmail{
+    margin-left: 2px;
+}
+
+.conteinerInstagram a{
+    display: flex;
+    flex-direction: row;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.textoInstagram{
+    margin-left: 2px;
+}
+
+.conteinerTelefone a{
+    display: flex;
+    flex-direction: row;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.textoTelefone{
+    margin-left: 2px;
+}
