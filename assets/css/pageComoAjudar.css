@@ -11,3 +11,77 @@
 .conteinerConteudoComoAjudar{
     margin: 100px;
 }
+
+.conteinerVoluntario,
+.conteinerParceiro,
+.conteinerDoar,
+.conteinerCrianca{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textoVoluntario,
+.textoParceiro,
+.textoDoar,
+.textoCrianca{
+    text-align: justify;
+    width: 90%;
+
+}
+
+.imgVoluntario,
+.imgParceiro,
+.imgDoar,
+.imgCrianca{
+    width: 250px;
+}
+
+.conteinerFormulario,
+.formularioContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formularioContato label{
+    margin: 10px;
+}
+
+.formularioContato input{
+    width: 500px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.botaoFormularioContatos{
+    background-color: #F2C641;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1180px) and (min-width: 1024px){
+}
+
+@media (max-width:999px) and ( min-width: 800px) {
+
+}
+
+    @media (max-width:799px) and ( min-width: 600px) {
+    }
+
+    @media (max-width:599px) and (min-width: 500px) {
+    }
+
+    @media (max-width:499px) and (min-width: 400px) {
+    }
+
+    @media (max-width: 399px) and (min-width: 300px) {
+}
+
+    @media (max-width: 299px) and (min-width: 200px){
+    }

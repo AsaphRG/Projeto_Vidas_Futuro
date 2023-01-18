@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden !important;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +23,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .conteinerMenu{
@@ -101,4 +106,61 @@ body{
 
 .textoTelefone{
     margin-left: 2px;
+}
+
+/* Responsividade */
+
+@media (max-width: 1180px) and (min-width: 1024px){
+}
+
+@media (max-width:999px) and ( min-width: 800px) {
+
+}
+
+@media (max-width:799px) and ( min-width: 600px) {
+
+}
+
+@media (max-width:599px) and (min-width: 500px) {
+    .conteinerMasterCabecalho{
+        height: 50vh;
+    }
+    .conteinerMasterCabecalho,
+    .conteinerMenu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:499px) and (min-width: 400px) {
+    .conteinerMasterCabecalho{
+        height: 50vh;
+    }
+    .conteinerMasterCabecalho,
+    .conteinerMenu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    @media (max-width: 399px) and (min-width: 300px) {
+    .conteinerMasterCabecalho{
+            height: 60vh;
+    }
+    .conteinerMasterCabecalho,
+    .conteinerMenu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    @media (max-width: 299px) and (min-width: 200px){
+        .conteinerMasterCabecalho{
+            height: 60vh;
+        }
+        .conteinerMasterCabecalho,
+        .conteinerMenu{
+            display: flex;
+            flex-direction: column;
+    }
 }

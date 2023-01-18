@@ -1,5 +1,9 @@
 
 
+html{
+    overflow-x: hidden !important;
+}
+
 /*Index*/
 
 .conteinerMasterIndex{
@@ -228,6 +232,7 @@
     width: 500px;
     height: 45px;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .assinar{
@@ -271,5 +276,29 @@
     color: #F2C641;
     bottom: inherit;
     right: inherit;
+}
+
+/* Responsividade */
+
+@media (max-width: 1180px) and (min-width: 1024px){
+}
+
+@media (max-width:999px) and ( min-width: 800px) {
 
 }
+
+@media (max-width:799px) and ( min-width: 600px) {
+    
+}
+
+    @media (max-width:599px) and (min-width: 500px) {
+    }
+
+    @media (max-width:499px) and (min-width: 400px) {
+    }
+
+    @media (max-width: 399px) and (min-width: 300px) {
+}
+
+    @media (max-width: 299px) and (min-width: 200px){
+    }
