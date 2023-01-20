@@ -97,7 +97,7 @@
                     <div class="avisos">
                         <div class="conteinerPoliticaPrivacidade">
                         <input class="campoPoliticaPrivacidade" required type="checkbox" name="politicaPrivacidade" id="politicaPrivacidade">
-                        Estou de acordo com as &nbsp;<a href="http://" target="_blank"> Políticas de Privacidade</a>&nbsp; desse web Site.
+                        <p>Estou de acordo com as &nbsp;<a href="http://" target="_blank"> Políticas de Privacidade</a>&nbsp; desse web Site.</p>
                         </div>
 
                         <div class="aviso2">

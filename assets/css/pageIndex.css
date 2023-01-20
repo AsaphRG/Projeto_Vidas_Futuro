@@ -4,6 +4,13 @@ html{
     overflow-x: hidden !important;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Index*/
 
 .conteinerMasterIndex{
@@ -280,25 +287,229 @@ html{
 
 /* Responsividade */
 
-@media (max-width: 1180px) and (min-width: 1024px){
-}
 
 @media (max-width:999px) and ( min-width: 800px) {
+    .conteinerApresentacao{
+        flex-direction: column;
+    }
+    .conteinerTexto{
+        width: 60%;
+    }
+    .conteinerConteudoComoAtuamos{
+        flex-direction: column;
+    }
+    .tituloParceiros{
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerParceiros{
+        flex-direction: column;
+    }
+    .ConteinerApresentacaoParceiro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 50%;
+    }
+    .campoLado{
+        flex-direction: column;
+    }
+    .assinar{
+        margin-top: 10px;
+    }
+    .voltarTopo{
+        left: 32%;
+    }
 
 }
 
 @media (max-width:799px) and ( min-width: 600px) {
-    
+    .conteinerApresentacao{
+        flex-direction: column;
+    }
+    .conteinerConteudoComoAtuamos{
+        flex-direction: column;
+    }
+    .tituloParceiros{
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerParceiros{
+        flex-direction: column;
+    }
+    .ConteinerApresentacaoParceiro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        width: 60%;
+    }
+    .voltarTopo{
+        left: 40%;
+    }
 }
 
     @media (max-width:599px) and (min-width: 500px) {
+        .conteinerApresentacao{
+            flex-direction: column;
+        }
+        .conteinerConteudoComoAtuamos{
+            flex-direction: column;
+        }
+        .conteinerTexto{
+            width: 50%;
+        }
+        .tituloParceiros{
+            justify-content: center;
+            align-items: center;
+        }
+        .conteinerParceiros{
+            flex-direction: column;
+        }
+        .ConteinerApresentacaoParceiro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            width: 40%;
+        }
+        .campoLado{
+            flex-direction: column;
+        }
+        .assinar{
+            margin-top: 10px;
+        }
+        .avisos{
+            width: 40%;
+        }
+        .voltarTopo{
+            left: 38%;
+        }
     }
 
     @media (max-width:499px) and (min-width: 400px) {
+        .conteinerApresentacao{
+            flex-direction: column;
+        }
+        .conteinerTexto{
+            width: 40%;
+        }
+        .conteinerConteudoComoAtuamos{
+            flex-direction: column;
+        }
+        .tituloParceiros{
+            justify-content: center;
+            align-items: center;
+        }
+        .conteinerParceiros{
+            flex-direction: column;
+        }
+        .ConteinerApresentacaoParceiro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            width: 30%;
+        }
+        .campoLado{
+            flex-direction: column;
+        }
+        .campoEmail{
+            width: 400px;
+        }
+        .assinar{
+            margin-top: 10px;
+        }
+        .avisos{
+            width: 30%;
+        }
+        .voltarTopo{
+            left: 38%;
+        }
     }
 
     @media (max-width: 399px) and (min-width: 300px) {
+        .conteinerApresentacao{
+            flex-direction: column;
+        }
+        .conteinerTexto{
+            width: 35%;
+        }
+        .conteinerConteudoComoAtuamos{
+            flex-direction: column;
+        }
+        .tituloParceiros{
+            justify-content: center;
+            align-items: center;
+        }
+        .conteinerParceiros{
+            flex-direction: column;
+        }
+        .ConteinerApresentacaoParceiro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            width: 30%;
+        }
+        .campoLado{
+            flex-direction: column;
+        }
+        .campoEmail{
+            width: 360px;
+        }
+        .assinar{
+            margin-top: 10px;
+        }
+        .avisos{
+            width: 25%;
+        }
+        .voltarTopo{
+            left: 38%;
+        }
 }
 
     @media (max-width: 299px) and (min-width: 200px){
+        .conteinerApresentacao{
+            flex-direction: column;
+        }
+        .conteinerTexto{
+            width: 23%;
+        }
+        .conteinerConteudoComoAtuamos{
+            flex-direction: column;
+        }
+        .tituloParceiros{
+            justify-content: center;
+            align-items: center;
+        }
+        .conteinerParceiros{
+            flex-direction: column;
+        }
+        .ConteinerApresentacaoParceiro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            width: 60%;
+        }
+        .campoLado{
+            flex-direction: column;
+        }
+        .assinar{
+            margin-top: 10px;
+        }
+        .avisos{
+            width: 40%;
+        }
+        .voltarTopo{
+            left: 30%;
+        }
     }
