@@ -64,24 +64,84 @@
     margin-top: 10px;
 }
 
-@media (max-width: 1180px) and (min-width: 1024px){
-}
 
 @media (max-width:999px) and ( min-width: 800px) {
-
+    .conteinerVoluntario,
+    .conteinerDoar,
+    .conteinerCrianca,
+    .conteinerParceiro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
     @media (max-width:799px) and ( min-width: 600px) {
+    .conteinerVoluntario,
+    .conteinerDoar,
+    .conteinerCrianca,
+    .conteinerParceiro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titlePageComoAjudar{
+        font: 16px;
+    }
+    .formularioContato input{
+        width: 450px;
+    }
     }
 
     @media (max-width:599px) and (min-width: 500px) {
+        .conteinerVoluntario,
+        .conteinerDoar,
+        .conteinerCrianca,
+        .conteinerParceiro{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     @media (max-width:499px) and (min-width: 400px) {
+        .conteinerVoluntario,
+        .conteinerDoar,
+        .conteinerCrianca,
+        .conteinerParceiro{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .formularioContato input{
+            width: 350px;
+        }
     }
 
     @media (max-width: 399px) and (min-width: 300px) {
+        .conteinerVoluntario,
+        .conteinerDoar,
+        .conteinerCrianca,
+        .conteinerParceiro{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .formularioContato input{
+            width: 350px;
+        }
 }
 
     @media (max-width: 299px) and (min-width: 200px){
+        .conteinerVoluntario,
+        .conteinerDoar,
+        .conteinerCrianca,
+        .conteinerParceiro{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .formularioContato input{
+            width: 250px;
+        }
     }

@@ -19,7 +19,7 @@
     <?php include 'header.php'?>
     <main class="conteinerMasterComoAjudar">
         <div class="conteinerConteudoComoAjudar">
-        <h1>Você pode ajudar o <b>Instituto vidas pelo futuro</b> das seguites formas: </h1>
+        <h1 class="titlePageComoAjudar">Você pode ajudar o <b>Instituto vidas pelo futuro</b> das seguites formas: </h1>
         <section class="conteinerVoluntario">
             <div>
                 <h2>Seja um voluntário</h2>

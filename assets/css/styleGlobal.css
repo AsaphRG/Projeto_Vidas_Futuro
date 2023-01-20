@@ -132,11 +132,19 @@ body{
 @media (max-width:799px) and ( min-width: 600px) {
     /* Cabeçalho */
     .conteinerMasterCabecalho{
-        height: 25vh;
+        height: 65vh;
+    }
+    .conteinerMasterCabecalho,
+    .conteinerMenu{
+        display: flex;
+        flex-direction: column;
     }
     /* Rodapé */
     .conteinerMasterRodape{
         height: 45vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
