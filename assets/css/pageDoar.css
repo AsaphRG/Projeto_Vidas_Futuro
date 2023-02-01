@@ -1,0 +1,462 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerMasterDoar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    min-height: 100vh;
+}
+
+.conteudoFormularioDoar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+.formaDoacao{
+    margin: 30px 0px;
+}
+
+.campoDinheiro{
+    height: 40px;
+    width: 250px;
+    padding-left: 30px;
+}
+
+.iconDinheiro{
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+
+/* .conteinerFormasDoacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cartaoDoacao,
+.pixDoacao,
+.boletoDoacao{
+    margin: 50px 20px;
+
+}
+
+.conteinerCartao,
+.conteinerPix,
+.conteinerBoleto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+/*     display: none; */
+}
+
+.cartaoConteudo,
+.pixConteudo,
+.boletoConteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    width: 990px;
+}
+
+.iconEmail, 
+.iconNome,
+.iconcartao{
+    position: relative;
+    left: 17px;
+    bottom: 35px;
+}
+
+.emailCampo, 
+.campoNome,
+.campoNumero,
+.campoDocumento{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 35px;
+    margin: 0px 5px;
+}
+
+.campoValidade,
+.campoCodSeguranca{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 5px 5px;
+}
+
+
+.iconCadeado{
+    position: relative;
+    left: 10px;
+    bottom: 37px;
+}
+
+.campoCodSeguranca{
+    padding-left: 30px;
+}
+
+.iconCarteira{
+    position: relative;
+    left: 15px;
+    bottom: 37px;
+}
+
+.campoTelefone{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 35px;
+    margin: 0px 5px;
+}
+
+.iconTelefone{
+    position: relative;
+    left: 20px;
+    bottom: 37px;
+}
+
+/*Doação pix*/
+
+.campoNomeCompleto,
+.emailCampoPix,
+.campoDocumentoPix,
+.campoLocalizacaoPix{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 35px;
+    margin: 0px 5px;
+}
+
+.iconNomeCompleto,
+.iconEmailPix,
+.iconCarteiraPix,
+.iconLocalizacaoPix{
+    position: relative;
+    left: 17px;
+    bottom: 35px;
+}
+
+
+/*Doação Boleto*/
+
+.campoNomeCompletoBoleto,
+.emailCampoBoleto,
+.campoDocumentoBoleto,
+.campoLocalizacaoBoleto{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 35px;
+    margin: 0px 5px;
+}
+
+.iconNomeCompletoBoleto,
+.iconEmailBoleto,
+.iconCarteiraBoleto,
+.iconLocalizacaoBoleto{
+    position: relative;
+    left: 17px;
+    bottom: 35px;
+}
+
+/*Botão Doar*/
+
+.conteinerBotaoDoar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDoar{
+    background-color: #3D65AD;
+    width: 30%;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    border: none
+}
+
+/* responsividade */
+
+@media (max-width:999px) and ( min-width: 800px) {
+    .formaDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quantiaDada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteinerTextTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerTextTitle h2{
+        font-size: 24px;
+        width: 800px;
+    }
+    .cartaoDoacao,
+    .pixDoacao,
+    .boletoDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cartaoConteudo,
+    .pixConteudo,
+    .boletoConteudo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:799px) and ( min-width: 600px) {
+    .formaDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quantiaDada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteinerTextTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerTextTitle h2{
+    font-size: 24px;
+    width: 600px;
+}
+    .cartaoDoacao,
+    .pixDoacao,
+    .boletoDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cartaoConteudo,
+    .pixConteudo,
+    .boletoConteudo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:599px) and (min-width: 500px) {
+    .formaDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quantiaDada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteinerTextTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteinerTextTitle h2{
+    font-size: 24px;
+    width: 500px;
+}
+    .cartaoDoacao,
+    .pixDoacao,
+    .boletoDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cartaoConteudo,
+    .pixConteudo,
+    .boletoConteudo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:499px) and (min-width: 400px) {
+    .formaDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quantiaDada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteinerTextTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.conteinerTextTitle h2{
+    font-size: 24px;
+    width: 400px;
+    }
+    .cartaoDoacao,
+    .pixDoacao,
+    .boletoDoacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cartaoConteudo,
+    .pixConteudo,
+    .boletoConteudo{
+        flex-direction: column;
+    }
+}
+
+    @media (max-width: 399px) and (min-width: 300px) {
+        .formaDoacao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .quantiaDada{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .conteinerTextTitle{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        .conteinerTextTitle h2{
+            font-size: 24px;
+            width: 300px;
+        }
+        .cartaoDoacao,
+        .pixDoacao,
+        .boletoDoacao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+        .cartaoConteudo,
+        .pixConteudo,
+        .boletoConteudo{
+            flex-direction: column;
+    }
+    .campoNomeCompleto,
+    .emailCampoPix,
+    .campoDocumentoPix,
+    .campoLocalizacaoPix{
+        width: 300px;
+    }
+    .campoNomeCompletoBoleto,
+    .emailCampoBoleto,
+    .campoDocumentoBoleto,
+    .campoLocalizacaoBoleto{
+        width: 300px;
+    }
+    .condicoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px
+    }
+}
+
+    @media (max-width: 299px) and (min-width: 200px){
+        .formaDoacao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .quantiaDada{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .conteinerTextTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    .conteinerTextTitle h2{
+        font-size: 24px;
+        width: 200px;
+    }
+        .cartaoDoacao,
+        .pixDoacao,
+        .boletoDoacao{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+        .cartaoConteudo,
+        .pixConteudo,
+        .boletoConteudo{
+            flex-direction: column;
+    }
+    .emailCampo, 
+    .campoNome,
+    .campoNumero,
+    .campoDocumento{
+        width: 250px;
+
+    }
+    .campoNomeCompleto,
+    .emailCampoPix,
+    .campoDocumentoPix,
+    .campoLocalizacaoPix{
+        width: 200px;
+    }
+    .campoNomeCompletoBoleto,
+    .emailCampoBoleto,
+    .campoDocumentoBoleto,
+    .campoLocalizacaoBoleto{
+        width: 200px;
+    }
+    .condicoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px
+    }
+    .buttonDoar{
+        width: 20%;
+    }
+}
