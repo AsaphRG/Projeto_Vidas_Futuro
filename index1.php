@@ -27,7 +27,7 @@
             <section class="conteinerTexto">
                 <div>
                     <h1>Instituto Vidas Pelo Futuro</h1>
-                    <p class="apresentacao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, ipsum. Labore deserunt tempore blanditiis ab ea facere minima quam enim illo fuga, iure molestiae temporibus quibusdam est sit aut id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque debitis repudiandae velit nemo deserunt maxime esse est suscipit tenetur incidunt illum, fugiat, natus repellendus quis laboriosam officiis sunt error!</p>
+                    <p class="apresentacao">O <b>Instituto Vidas pelo futuro</b> foi fundado em 2020 no quintal da minha casa com intuito de sanar a fome  que a pandemia nos trouxe começamos a fazer a sacolas e distribuímos semana após semana e após alguns meses distribuindo as sacolas perceberam que a necessidade era muito maior do que uma sacola de alimentos(frutas e verduras ),e que precisamos de alguma forma contribuir para a promoção e desenvolvimento humano dessas pessoas sendo assim no mesmo ano criamos a nossa primeira sala de aula para um projeto de reforço escolar, pois nossas crianças estavam sem aula  devido a pandemia e também criamos o nosso bazar  social, com o objetivo de gerar renda, mas também de auto estima,tivemos o treino funcional ,aulas de Muay Thai o atendimento social com muitas doações de demandas diversas .Hoje utilizamos  uma área pública porém ainda não temos a concessão da mesma onde realizamos as nossas atividades estamos em processo da construção desse novo espaço</p>
                 </div>
             </section>
         </div>
@@ -97,7 +97,7 @@
                     <div class="avisos">
                         <div class="conteinerPoliticaPrivacidade">
                         <input class="campoPoliticaPrivacidade" required type="checkbox" name="politicaPrivacidade" id="politicaPrivacidade">
-                        Estou de acordo com as &nbsp;<a href="http://" target="_blank"> Políticas de Privacidade</a>&nbsp; desse web Site.
+                        <p>Estou de acordo com as &nbsp;<a href="http://" target="_blank"> Políticas de Privacidade</a>&nbsp; desse web Site.</p>
                         </div>
 
                         <div class="aviso2">
