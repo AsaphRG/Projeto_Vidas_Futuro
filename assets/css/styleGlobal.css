@@ -113,7 +113,7 @@ body{
 @media (max-width:999px) and ( min-width: 800px) {
     /* Cabeçalho */
     .conteinerMasterCabecalho{
-        height: 32vh;
+        height: 100vh;
     }
     .conteinerMasterCabecalho,
     .conteinerMenu{
@@ -122,7 +122,7 @@ body{
     }
     /* Rodapé */
     .conteinerMasterRodape{
-        height: 25vh;
+        height: 45vh;
         flex-direction: column;
         align-items: center;
         justify-content: center;
