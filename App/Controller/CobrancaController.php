@@ -41,42 +41,48 @@ class CobrancaController
     function index()
     {
 
-      
 
-            MercadoPago\SDK::setAccessToken('TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218');
-            $payment_methods = MercadoPago\SDK::get("/v1/payment_methods");
 
-            $payment = new MercadoPago\Payment();
-            $payment->transaction_amount = 100;
-            $payment->description = "Título do produto";
-            $payment->payment_method_id = "bolbradesco";
+        MercadoPago\SDK::setAccessToken('TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218');
+        //$payment_methods = MercadoPago\SDK::get("/v1/payment_methods");
 
-            $payment->payer = array(
-                "email" => "test@test.com",
-                "first_name" => "Test",
-                "last_name" => "User",
-                "identification" => array(
-                    "type" => "CPF",
-                    "number" => "19119119100"
-                ),
-                "address" =>  array(
-                    "zip_code" => "06233200",
-                    "street_name" => "Av. das Nações Unidas",
-                    "street_number" => "3003",
-                    "neighborhood" => "Bonfim",
-                    "city" => "Osasco",
-                    "federal_unit" => "SP"
-                )
-            );
+        $payment = new MercadoPago\Payment();
+        //$payment->date_of_expiration = "2023-02-05T23:59:59.000-04:00";
+        $payment->transaction_amount = 100;
+        $payment->description = "Título do produto";
+        $payment->payment_method_id = "bolbradesco";
 
-           
+        $payment->payer = array(
+            "email" => "test@test.com",
+            "first_name" => "Test",
+            "last_name" => "User",
+            "identification" => array(
+                "type" => "CPF",
+                "number" => "19119119100"
+            ),
+            "address" =>  array(
+                "zip_code" => "06233200",
+                "street_name" => "Av. das Nações Unidas",
+                "street_number" => "3003",
+                "neighborhood" => "Bonfim",
+                "city" => "Osasco",
+                "federal_unit" => "SP"
+            )
+        );
 
-            $loader = new \Twig\Loader\FilesystemLoader('App/View');
-            $twig = new \Twig\Environment($loader);
-            $template = $twig->load('cobranca.html');
+        $payment->save();
 
-            $conteudo = $template->render(['payment_methods' => $payment_methods]);
-            echo $conteudo;
-        
+      /*   echo '<pre>';
+        var_dump($payment);
+        exit; */
+
+       // header("location: ".$payment->transaction_details->external_resource_url);
+
+        $loader = new \Twig\Loader\FilesystemLoader('App/View');
+        $twig = new \Twig\Environment($loader);
+        $template = $twig->load('cobranca.html');
+
+        $conteudo = $template->render();
+        echo $conteudo;
     }
 }
