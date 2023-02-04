@@ -79,7 +79,7 @@
                             </div>
                             </label>
                             </div>
-                                            <div class="conteinerNumCartao">
+                            <div class="conteinerNumCartao">
                             <label for="numero">
                                 <input type="number" name="numero" id="numero" class="campoNumero" placeholder="Número do cartão">
                                 <div class="iconcartao">
@@ -89,7 +89,7 @@
                                     </svg>
                                 </div>
                             </label>
-                                            </div>
+                            </div>
                         
                                             <div class="conteinerValidadeCartao">
                             <label for="validade">
@@ -106,6 +106,31 @@
                             </svg>
                             </div>
                             </label>
+                            </div>
+                            <div class="conteinerBandeiraCartao">
+                                <div>
+                                    <p>Informe a bandeira do seu Cartão</p>
+                                </div>
+                                <div class="conteudoBandeiras">
+                                    <div class="escolhaBandeira">
+                                        <label for="visa">
+                                            <img class="bandeira" src="assets/imagens/bandeirasCartoes/visa.png" width="50" alt="imagem da bandeira visa">
+                                            <input type="radio" name="bandeira" id="visa">
+                                        </label>
+                                    </div>
+                                    <div class="escolhaBandeira">
+                                    <label for="mastercard">
+                                        <img class="bandeira" src="assets/imagens/bandeirasCartoes/mastercard.png" width="50" alt="imagem da bandeira mastercard">
+                                            <input type="radio" name="bandeira" id="mastercard">
+                                    </label>
+                                    </div>
+                                    <div class="escolhaBandeira">
+                                    <label for="elo">
+                                        <img class="bandeira" src="assets/imagens/bandeirasCartoes/elo.png" width="50" alt="imagem da bandeira elo">
+                                            <input type="radio" name="bandeira" id="elo">
+                                    </label>
+                                    </div>
+                                </div>
                             </div>
                             <div class="conteinerDocumento">
                                 <label for="documento">

@@ -114,6 +114,29 @@ body{
     padding-left: 30px;
 }
 
+.conteinerBandeiraCartao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoBandeiras{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.escolhaBandeira label{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+}
+
+.bandeira{
+    margin-bottom: 5px;
+}
+
 .iconCarteira{
     position: relative;
     left: 15px;
