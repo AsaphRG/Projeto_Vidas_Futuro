@@ -13,6 +13,7 @@ require_once '../Projeto_Vidas_Futuro/App/Controller/HomeController.php';
 require_once '../Projeto_Vidas_Futuro/App/Controller/ErroController.php';
 require_once '../Projeto_Vidas_Futuro/App/Controller/AjudarController.php';
 require_once '../Projeto_Vidas_Futuro/App/Controller/CobrancaController.php';
+require_once '../Projeto_Vidas_Futuro/App/Controller/DoarController.php';
 
 
 require_once '../Projeto_Vidas_Futuro/App/Model/Home.php';

@@ -2,7 +2,41 @@
 
 class CobrancaController
 {
-    function indexa()
+
+    function index()
+    {
+        MercadoPago\SDK::setAccessToken('TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218');
+        $payment = new MercadoPago\Payment();
+
+        $payment->transaction_amount = (float)$_POST['transactionAmount'];
+        $payment->token = $_POST['token'];
+        $payment->description = $_POST['description'];
+        $payment->installments = (int)$_POST['installments'];
+        $payment->payment_method_id = $_POST['paymentMethodId'];
+        $payment->issuer_id = (int)$_POST['issuer'];
+
+        $payer = new MercadoPago\Payer();
+        $payer->email = $_POST['email'];
+        $payer->identification = array(
+            "type" => $_POST['docType'],
+            "number" => $_POST['docNumber']
+        );
+        $payment->payer = $payer;
+
+
+        $payment->save();
+        
+
+        $response = array(
+            'status' => $payment->status,
+            'status_detail' => $payment->status_detail,
+            'id' => $payment->id
+        );
+        echo json_encode($response);
+    }
+
+
+    function pix()
     {
         MercadoPago\SDK::setAccessToken('TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218');
 
@@ -38,7 +72,8 @@ class CobrancaController
         echo $conteudo;
     }
 
-    function index()
+
+    function boleto()
     {
 
 
@@ -72,11 +107,6 @@ class CobrancaController
 
         $payment->save();
 
-      /*   echo '<pre>';
-        var_dump($payment);
-        exit; */
-
-       // header("location: ".$payment->transaction_details->external_resource_url);
 
         $loader = new \Twig\Loader\FilesystemLoader('App/View');
         $twig = new \Twig\Environment($loader);
