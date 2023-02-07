@@ -20,7 +20,7 @@
         <form method="POST">
             <div class="conteudoFormularioDoar">
                 <div class="conteinerTextTitle">
-                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2>
+                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade. Contudo, doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</h2>
                 </div>
                 <div class="formaDoacao">
                     <h5>Escolha a forma de doação:</h5>
