@@ -9,20 +9,11 @@ require_once 'App/config/config.php';
 require_once 'App/Core/Core.php';
 
 
-<<<<<<< HEAD
-require_once '../Projeto_Vidas_Futuro/App/Controller/HomeController.php';
-require_once '../Projeto_Vidas_Futuro/App/Controller/ErroController.php';
-require_once '../Projeto_Vidas_Futuro/App/Controller/AjudarController.php';
-//require_once '../Projeto_Vidas_Futuro/App/Controller/CobrancaController.php';
-require_once '../Projeto_Vidas_Futuro/App/Controller/DoarController.php';
-require_once '../Projeto_Vidas_Futuro/App/Controller/process_payment.php';
-=======
 require_once 'App/Controller/HomeController.php';
 require_once 'App/Controller/ErroController.php';
 require_once 'App/Controller/AjudarController.php';
 require_once 'App/Controller/CobrancaController.php';
 require_once 'App/Controller/DoarController.php';
->>>>>>> 65957244d29f9b868edebf35295161d86348d621
 
 
 require_once 'App/Model/Home.php';
