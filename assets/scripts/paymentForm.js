@@ -15,9 +15,10 @@ function formBuilder(paymentMethod) {
             container.appendChild(formFieldBig(''));
             break;
         case "pix":
-            
+            container.innerHTML = "PIX"
             break;
         case "boleto":
+            container.innerHTML = "BOLETO"
             break;
     }
     box.innerHTML = "";
@@ -65,18 +66,6 @@ function formFieldBig(userView, name, inputType, classType, id, xmlns, path) {
 <div class="cartaoDoacao">
     <h2>Cartão</h2>
     <div class="conteinerCartao">
-        <div class="cartaoConteudo">
-            <div class="conteinerDocumento">
-                <label for="form-checkout__issuer">
-                    <select name="issuer" id="form-checkout__issuer" class="campoCodSeguranca"></select>
-                </label>
-                <label for="form-checkout__identificationType">
-                    <select name="identificationType" id="form-checkout__identificationType"
-                        class="campoCodSeguranca"></select>
-                </label>
-
-            </div>
-
             <div class="conteinerNumCartao">
                 <label for="form-checkout__identificationNumber">
                     <input type="text" name="identificationNumber" id="form-checkout__identificationNumber"

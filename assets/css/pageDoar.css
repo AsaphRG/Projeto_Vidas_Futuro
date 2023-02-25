@@ -38,12 +38,15 @@ body{
     left: 10px;
 }
 
-/* .conteinerFormasDoacao{
+.conteinerFormasDoacao{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 1vw;
+}
 
 .cartaoDoacao,
 .pixDoacao,
@@ -502,10 +505,4 @@ body{
 
 .pix {
     margin: 0 0.5vw;
-}
-
-.conteinerFormasDoacao {
-    border: 1px solid black;
-    border-radius: 15px;
-    margin-bottom: 1vw;
 }
