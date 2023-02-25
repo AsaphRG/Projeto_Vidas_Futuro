@@ -8,47 +8,105 @@
 .conteudoPageNoticias{
     margin: 20px 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100vw;
-}
-
-.conteinerMenuNoticias{
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #3D65AD;
-    padding: 10px 0px;
-}
-
-.campoPesquisar{
-    width: 400px;
-    height: 40px;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
-}
-
-.buttonPesquisar{
-    position: relative;
-    left: 95%;
-    bottom: 50%;
 }
 
 .conteinerConteudoNoticias{
-    flex: 2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .carrosselPageNoticias{
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
 }
 
 .carouselLegenda{
     background-color: rgba(165, 162, 162, 0.315);
+}
+
+.conteinerMenuNoticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #3D65AD;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.conteudoMenuNoticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.conteudoMenuNoticias div{
+    padding: 0px 5px;
+}
+
+.areaPesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerbuttonPesquisar{
+    position: relative;
+    right: 27px;
+    top: 1px;
+}
+
+.campoPesquisar{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 1px solid white;
+}
+
+.buttonPesquisar{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.areaCategoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.conteudoCategoria{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;  
+}
+
+.conteinerPublicacaoNoticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.conteudoPublicacaoNoticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoPublicacaoNoticias div{
+    padding: 20px 20px;
 }

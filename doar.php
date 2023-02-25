@@ -20,7 +20,7 @@
         <form method="POST">
             <div class="conteudoFormularioDoar">
                 <div class="conteinerTextTitle">
-                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade. Contudo, doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</h2>
+                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2>
                 </div>
                 <div class="formaDoacao">
                     <h5>Escolha a forma de doação:</h5>
@@ -43,13 +43,16 @@
                         <h5>Quanto deseja doar:</h5>
                     <div>
                             <label for="dinheiro">
-                            <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro">
+                            <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro" value="30">
                             <div class="iconDinheiro">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
                             <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
                             <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
                             </svg>
                             </label>
+                            </div>
+                            <div class="valorSugerido">
+                                <p>OBS: Doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</p>
                             </div>
                         </div>
                     </div>
