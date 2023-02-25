@@ -1,13 +1,13 @@
 <?php
 
-class CobrancaController
+class process_paymentController
 {
 
     function index()
     {
-        MercadoPago\SDK::setAccessToken('TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218');
-        $payment = new MercadoPago\Payment();
+        MercadoPago\SDK::setAccessToken("TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218");
 
+        $payment = new MercadoPago\Payment();
         $payment->transaction_amount = (float)$_POST['transactionAmount'];
         $payment->token = $_POST['token'];
         $payment->description = $_POST['description'];
@@ -15,17 +15,24 @@ class CobrancaController
         $payment->payment_method_id = $_POST['paymentMethodId'];
         $payment->issuer_id = (int)$_POST['issuer'];
 
+  
+
         $payer = new MercadoPago\Payer();
+
         $payer->email = $_POST['email'];
         $payer->identification = array(
-            "type" => $_POST['docType'],
-            "number" => $_POST['docNumber']
+            "type" => $_POST['identificationType'],
+            "number" => $_POST['identificationNumber'],
         );
         $payment->payer = $payer;
 
+      $payment->save();
 
-        $payment->save();
-        
+       /*  
+        echo '<pre>';
+        print_r($payment);
+        exit; */
+
 
         $response = array(
             'status' => $payment->status,

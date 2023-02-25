@@ -110,7 +110,7 @@ class Config
 
         if ($key == "ACCESS_TOKEN") { 
             $user = $this->getUserId($value);
-            parent::set('USER_ID', $user['id']);
+            parent::set('CLIENT_ID', $user['id']);
             parent::set('COUNTRY_ID', $user['country_id']);
         }
         
