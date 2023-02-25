@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="PT-BR">
 
@@ -11,18 +12,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/styleGlobal.css">
+=======
+<?php include 'head.php' ?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <link rel="stylesheet" href="assets/css/pageDoar.css">
-
-    <title>Doar - Instituto vidas pelo futuro</title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <?php include 'header.php' ?>
+=======
+    <?php include 'menu.php'?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <main class="conteinerMasterDoar">
         <form method="POST">
             <div class="conteudoFormularioDoar">
                 <div class="conteinerTextTitle">
-                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2>
+                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2> <!-- Contudo, doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</h2> -->
                 </div>
                 <div class="formaDoacao">
                     <h5>Escolha a forma de doação:</h5>
@@ -44,8 +50,13 @@
                 <div class="quantiaDada">
                     <h5>Quanto deseja doar:</h5>
                     <div>
+<<<<<<< HEAD
                         <label for="dinheiro">
                             <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro">
+=======
+                            <label for="dinheiro">
+                            <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro" value="30">
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
                             <div class="iconDinheiro">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
                                     <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
@@ -298,9 +309,13 @@
         </form>
     </main>
 
+<<<<<<< HEAD
     <?php include 'footer.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
+=======
+    <?php include 'footer.php'?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
