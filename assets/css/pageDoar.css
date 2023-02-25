@@ -483,3 +483,29 @@ body{
         width: 20%;
     }
 }
+
+.methodSelectorBox {
+    display: flex;
+    margin: 0 1vw;
+}
+
+.credito, .boleto, .pix {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1vw 2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pix {
+    margin: 0 0.5vw;
+}
+
+.conteinerFormasDoacao {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 1vw;
+}
