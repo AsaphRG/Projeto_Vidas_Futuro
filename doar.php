@@ -1,8 +1,29 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imagens/logo.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styleGlobal.css">
+=======
 <?php include 'head.php' ?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <link rel="stylesheet" href="assets/css/pageDoar.css">
 </head>
+
 <body>
+<<<<<<< HEAD
+    <?php include 'header.php' ?>
+=======
     <?php include 'menu.php'?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <main class="conteinerMasterDoar">
         <form method="POST">
             <div class="conteudoFormularioDoar">
@@ -29,13 +50,19 @@
                             <label for="boleto">Boleto</label>
                         </div>
                     </div>
-                    </div>
-                    <div class="quantiaDada">
-                        <h5>Quanto deseja doar:</h5>
+                </div>
+                <div class="quantiaDada">
+                    <h5>Quanto deseja doar:</h5>
                     <div>
+<<<<<<< HEAD
+                        <label for="dinheiro">
+                            <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro">
+=======
                             <label for="dinheiro">
                             <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro" value="30">
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621
                             <div class="iconDinheiro">
+<<<<<<< HEAD
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
                             <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
                             <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
@@ -59,47 +86,69 @@
                             <div class="iconEmail">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+=======
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+                                    <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                                    <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
+>>>>>>> 9d036ff549d3d291c3a884ab9eab1c8f967415a7
                                 </svg>
-                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteinerFormasDoacao">
+                <div class="cartaoDoacao">
+                    <h2>Cartão</h2>
+                    <div class="conteinerCartao">
+                        <div class="cartaoConteudo">
+                            <div class="conteinerEmail">
+                                <label for="email">
+                                    <input type="email" name="email" id="email" class="emailCampo" placeholder="Email">
+                                    <div class="iconEmail">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
-                                            <div class="conteinerNome">
-                            <label for="nome">
-                            <input type="text" name="nome" id="nome" class="campoNome" placeholder="Seu nome como consta no cartão">
-                            <div class="iconNome">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                            </svg>
-                            </div>
-                            </label>
+                            <div class="conteinerNome">
+                                <label for="nome">
+                                    <input type="text" name="nome" id="nome" class="campoNome" placeholder="Seu nome como consta no cartão">
+                                    <div class="iconNome">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                        </svg>
+                                    </div>
+                                </label>
                             </div>
                             <div class="conteinerNumCartao">
-                            <label for="numero">
-                                <input type="number" name="numero" id="numero" class="campoNumero" placeholder="Número do cartão">
-                                <div class="iconcartao">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
-                                    <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
-                                    </svg>
-                                </div>
-                            </label>
+                                <label for="numero">
+                                    <input type="number" name="numero" id="numero" class="campoNumero" placeholder="Número do cartão">
+                                    <div class="iconcartao">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z" />
+                                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z" />
+                                        </svg>
+                                    </div>
+                                </label>
                             </div>
-                        
-                                            <div class="conteinerValidadeCartao">
-                            <label for="validade">
-                            <input type="date" name="validade" id="validade" class="campoValidade">
-                            </label>
-                                            </div>
-                        
-                                            <div class="conteinerCodSeguranca">
-                            <label for="codSeguranca">
-                            <input type="number" name="codSeguranca" id="codSeguranca" class="campoCodSeguranca" placeholder="Código de Segurança">
-                            <div class="iconCadeado">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
-                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
-                            </svg>
+
+                            <div class="conteinerValidadeCartao">
+                                <label for="validade">
+                                    <input type="date" name="validade" id="validade" class="campoValidade">
+                                </label>
                             </div>
-                            </label>
+
+                            <div class="conteinerCodSeguranca">
+                                <label for="codSeguranca">
+                                    <input type="number" name="codSeguranca" id="codSeguranca" class="campoCodSeguranca" placeholder="Código de Segurança">
+                                    <div class="iconCadeado">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                        </svg>
+                                    </div>
+                                </label>
                             </div>
                             <div class="conteinerBandeiraCartao">
                                 <div>
@@ -113,181 +162,190 @@
                                         </label>
                                     </div>
                                     <div class="escolhaBandeira">
-                                    <label for="mastercard">
-                                        <img class="bandeira" src="assets/imagens/bandeirasCartoes/mastercard.png" width="50" alt="imagem da bandeira mastercard">
+                                        <label for="mastercard">
+                                            <img class="bandeira" src="assets/imagens/bandeirasCartoes/mastercard.png" width="50" alt="imagem da bandeira mastercard">
                                             <input type="radio" name="bandeira" id="mastercard">
-                                    </label>
+                                        </label>
                                     </div>
                                     <div class="escolhaBandeira">
-                                    <label for="elo">
-                                        <img class="bandeira" src="assets/imagens/bandeirasCartoes/elo.png" width="50" alt="imagem da bandeira elo">
+                                        <label for="elo">
+                                            <img class="bandeira" src="assets/imagens/bandeirasCartoes/elo.png" width="50" alt="imagem da bandeira elo">
                                             <input type="radio" name="bandeira" id="elo">
-                                    </label>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
                             <div class="conteinerDocumento">
                                 <label for="documento">
-                                <input type="number" name="documento" id="documento" class="campoDocumento" placeholder="CPF/CNPJ">
-                                <div class="iconCarteira">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
-                                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
-                                    </svg>
-                                </div>
+                                    <input type="number" name="documento" id="documento" class="campoDocumento" placeholder="CPF/CNPJ">
+                                    <div class="iconCarteira">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
-                        
+
                             <div class="conteinerTelefone">
-                            <label for="telefone">
-                            <input type="tel" name="telefone" id="telefone" class="campoTelefone" placeholder="Celular com DDD">
-                            <div class="iconTelefone">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                            </svg>
+                                <label for="telefone">
+                                    <input type="tel" name="telefone" id="telefone" class="campoTelefone" placeholder="Celular com DDD">
+                                    <div class="iconTelefone">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>
+                                    </div>
+                                </label>
                             </div>
-                            </label>
-                                            </div>
-                                            <div>
-                                            </div>
-                                        </div>
-                            <div class="condicoes">
-                                <div>
-                                    <label for="valorMensal">
+                            <div>
+                            </div>
+                        </div>
+                        <div class="condicoes">
+                            <div>
+                                <label for="valorMensal">
                                     <input type="checkbox" name="valorMensal" id="valorMensal">
                                     <span>Desejo continuar enviando este valor mensalmente</span>
-                                    </label>
-                                </div>
-                                <div>
-                                    <label for="doacaoAnonima">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="doacaoAnonima">
                                     <input type="checkbox" name="doacaoAnonima" id="doacaoAnonima">
                                     <span>Não divulgar meu nome/empresa publicamente</span>
-                                    </label>
-                                </div>
+                                </label>
                             </div>
-                                </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="pixDoacao">
-                            <h2>Pix</h2>
-                            <div class="conteinerPix">
-                                <div class="pixConteudo">
-                                <div class="conteinerNomeCompleto">
-                                    <label for="nomeCompleto">
+                <div class="pixDoacao">
+                    <h2>Pix</h2>
+                    <div class="conteinerPix">
+                        <div class="pixConteudo">
+                            <div class="conteinerNomeCompleto">
+                                <label for="nomeCompleto">
                                     <input type="text" name="nomeCompleto" id="nomeCompleto" class="campoNomeCompleto" placeholder="Nome Completo">
                                     <div class="iconNomeCompleto">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                        </svg>
                                     </div>
-                                    </label>
-                                    </div>
-                                    <div class="conteinerEmail">
-                                    <label for="emailPix">
+                                </label>
+                            </div>
+                            <div class="conteinerEmail">
+                                <label for="emailPix">
                                     <input type="email" name="emailPix" id="emailPix" class="emailCampoPix" placeholder="Email">
                                     <div class="iconEmailPix">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                                </svg>
-                            </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
                             <div class="conteinerDocumentoPix">
                                 <label for="documentoPix">
-                                <input type="number" name="documentoPix" id="documentoPix" class="campoDocumentoPix" placeholder="CPF/CNPJ">
-                                <div class="iconCarteiraPix">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
-                                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
-                                    </svg>
-                                </div>
+                                    <input type="number" name="documentoPix" id="documentoPix" class="campoDocumentoPix" placeholder="CPF/CNPJ">
+                                    <div class="iconCarteiraPix">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
                             <div class="conteinerLocalizacaoPix">
                                 <label for="localizacaoPix">
-                                <input type="number" name="localizacaoPix" id="localizacaoPix" class="campoLocalizacaoPix" placeholder="CEP">
-                                <div class="iconLocalizacaoPix">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                </svg>
-                                </div>
+                                    <input type="number" name="localizacaoPix" id="localizacaoPix" class="campoLocalizacaoPix" placeholder="CEP">
+                                    <div class="iconLocalizacaoPix">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                        </svg>
+                                    </div>
                                 </label>
-                            </div>
-                                </div>
-                                <div class="condicoes">
-                                <label for="doacaoAnonimaPix">
-                                <input type="checkbox" name="doacaoAnonimaPix" id="doacaoAnonimaPix">
-                                <span>Não divulgar meu nome/empresa publicamente</span>
-                                </label>
-                            </div>
                             </div>
                         </div>
-                        <div class="boletoDoacao">
-                            <h2>Boleto</h2>
-                            <div class="conteinerBoleto">
-                                <div class="boletoConteudo">
-                                <div class="conteinerNomeCompleto">
-                                    <label for="nomeCompletoBoleto">
+                        <div class="condicoes">
+                            <label for="doacaoAnonimaPix">
+                                <input type="checkbox" name="doacaoAnonimaPix" id="doacaoAnonimaPix">
+                                <span>Não divulgar meu nome/empresa publicamente</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="boletoDoacao">
+                    <h2>Boleto</h2>
+                    <div class="conteinerBoleto">
+                        <div class="boletoConteudo">
+                            <div class="conteinerNomeCompleto">
+                                <label for="nomeCompletoBoleto">
                                     <input type="text" name="nomeCompletoBoleto" id="nomeCompletoBoleto" class="campoNomeCompletoBoleto" placeholder="Nome Completo">
                                     <div class="iconNomeCompletoBoleto">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                        </svg>
                                     </div>
-                                    </label>
-                                    </div>
-                                    <div class="conteinerEmail">
-                                    <label for="emailBoleto">
+                                </label>
+                            </div>
+                            <div class="conteinerEmail">
+                                <label for="emailBoleto">
                                     <input type="email" name="emailBoleto" id="emailBoleto" class="emailCampoBoleto" placeholder="Email">
                                     <div class="iconEmailBoleto">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                                </svg>
-                            </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
                             <div class="conteinerDocumentoBoleto">
                                 <label for="documentoBoleto">
-                                <input type="number" name="documentoBoleto" id="documentoBoleto" class="campoDocumentoBoleto" placeholder="CPF/CNPJ">
-                                <div class="iconCarteiraBoleto">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
-                                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
-                                    </svg>
-                                </div>
+                                    <input type="number" name="documentoBoleto" id="documentoBoleto" class="campoDocumentoBoleto" placeholder="CPF/CNPJ">
+                                    <div class="iconCarteiraBoleto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
                             <div class="conteinerLocalizacaoBoleto">
                                 <label for="localizacaoBoleto">
-                                <input type="number" name="localizacaoBoleto" id="localizacaoBoleto" class="campoLocalizacaoBoleto" placeholder="CEP">
-                                <div class="iconLocalizacaoBoleto">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                </svg>
-                                </div>
+                                    <input type="number" name="localizacaoBoleto" id="localizacaoBoleto" class="campoLocalizacaoBoleto" placeholder="CEP">
+                                    <div class="iconLocalizacaoBoleto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                        </svg>
+                                    </div>
                                 </label>
                             </div>
-                                </div>
-                                <div class="condicoes">
-                                    <div>
-                                        <label for="valorMensal">
-                                        <input type="checkbox" name="valorMensal" id="valorMensal">
-                                        <span>Desejo continuar enviando este valor mensalmente</span>
-                                        </label>
-                                    </div>
-                                    <div>
-                                        <label for="doacaoAnonimaBoleto">
-                                        <input type="checkbox" name="doacaoAnonimaBoleto" id="doacaoAnonimaBoleto">
-                                        <span>Não divulgar meu nome/empresa publicamente</span>
-                                        </label>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="condicoes">
+                            <div>
+                                <label for="valorMensal">
+                                    <input type="checkbox" name="valorMensal" id="valorMensal">
+                                    <span>Desejo continuar enviando este valor mensalmente</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="doacaoAnonimaBoleto">
+                                    <input type="checkbox" name="doacaoAnonimaBoleto" id="doacaoAnonimaBoleto">
+                                    <span>Não divulgar meu nome/empresa publicamente</span>
+                                </label>
                             </div>
                         </div>
                     </div>
-                    <div class="conteinerBotaoDoar">
-                        <button class="buttonDoar" type="submit">Doar</button>
-                    </div>
+                </div>
+            </div>
+            <div class="conteinerBotaoDoar">
+                <button class="buttonDoar" type="submit">Doar</button>
+            </div>
         </form>
     </main>
 
+<<<<<<< HEAD
+    <?php include 'footer.php' ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
+=======
     <?php include 'footer.php'?>
+>>>>>>> 65957244d29f9b868edebf35295161d86348d621

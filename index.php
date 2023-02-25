@@ -12,7 +12,7 @@ require_once 'App/Core/Core.php';
 require_once 'App/Controller/HomeController.php';
 require_once 'App/Controller/ErroController.php';
 require_once 'App/Controller/AjudarController.php';
-require_once 'App/Controller/CobrancaController.php';
+require_once 'App/Controller/process_paymentController.php';
 require_once 'App/Controller/DoarController.php';
 
 
