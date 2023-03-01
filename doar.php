@@ -1,38 +1,14 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="PT-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/imagens/logo.png" type="image/x-icon">
-
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="assets/css/styleGlobal.css">
-=======
 <?php include 'head.php' ?>
->>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <link rel="stylesheet" href="assets/css/pageDoar.css">
 </head>
 
 <body>
-<<<<<<< HEAD
-    <?php include 'header.php' ?>
-=======
     <?php include 'menu.php'?>
->>>>>>> 65957244d29f9b868edebf35295161d86348d621
     <main class="conteinerMasterDoar">
         <form method="POST">
             <div class="conteudoFormularioDoar">
                 <div class="conteinerTextTitle">
-<<<<<<< HEAD
-                    <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2>
-=======
                     <h2>Doe qualquer valor e ajude com este <b>gesto</b> a proporcionar qualidade de vida, respeito e felicidade.</h2> <!-- Contudo, doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</h2> -->
->>>>>>> 27fc53735903509cf4111ff1e616454d8deef1f8
                 </div>
                 <div class="formaDoacao">
                     <h5>Escolha a forma de doação:</h5>
@@ -54,43 +30,12 @@
                 <div class="quantiaDada">
                     <h5>Quanto deseja doar:</h5>
                     <div>
-<<<<<<< HEAD
-                        <label for="dinheiro">
-                            <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro">
-=======
                             <label for="dinheiro">
                             <input type="number" name="dinheiro" id="dinheiro" class="campoDinheiro" value="30">
->>>>>>> 65957244d29f9b868edebf35295161d86348d621
                             <div class="iconDinheiro">
-<<<<<<< HEAD
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
-                            <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
-                            <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
-                            </svg>
-                            </label>
-                            </div>
-                            <div class="valorSugerido">
-                                <p>OBS: Doando 30 reais você poderá está contribuindo para ajudar uma criança ou adolescente ao acesso a atividades esportivas/cultural.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="conteinerFormasDoacao">
-                        <div class="cartaoDoacao">
-                        <h2>Cartão</h2>
-                            <div class="conteinerCartao">
-                                <div class="cartaoConteudo">
-                                <div class="conteinerEmail">
-                            <label for="email">
-                            <input type="email" name="email" id="email" class="emailCampo" placeholder="Email">
-                            <div class="iconEmail">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-=======
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
                                     <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
                                     <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
->>>>>>> 9d036ff549d3d291c3a884ab9eab1c8f967415a7
                                 </svg>
                         </label>
                     </div>
@@ -339,13 +284,4 @@
         </form>
     </main>
 
-<<<<<<< HEAD
-    <?php include 'footer.php' ?>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-
-</html>
-=======
     <?php include 'footer.php'?>
->>>>>>> 65957244d29f9b868edebf35295161d86348d621

@@ -15,6 +15,10 @@ body{
     min-height: 100vh;
 }
 
+.conteinerMasterDoar h2 {
+    text-align: center;
+}
+
 .conteudoFormularioDoar{
     display: flex;
     flex-direction: column;
