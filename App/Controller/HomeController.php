@@ -16,7 +16,7 @@ class HomeController
                     ':email' => $parametro_email,
                 ];
 
-                $CadastrarLead = Lead::Cadastrarlead($parametros);
+                $CadastrarLead = Home::Cadastrarlead($parametros);
                 if ($CadastrarLead) {
 
                     $mensagem['msg'] = 'Obrigado por se inscrever. Sua contribuição é importante para nós. Fique atento(a) para novidades e como sua doação está ajudando.';
