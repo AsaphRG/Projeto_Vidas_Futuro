@@ -6,12 +6,24 @@
   <main class="conteinerMasterNoticias">
       <div class="conteudoPageNoticias">
           <section class="conteinerMenuNoticias">
+            <div class="conteudoCategorias">
               <div>
-                  <label for="pesquisar">
-                      <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar" class="campoPesquisar">
-                  </label>
-                  <div class="buttonPesquisar"><i class="bi bi-search"></i></div>
+                <label for="violencia">Violência contra a mulher</label>
+                <input type="radio" name="categorias" id="violencia">
               </div>
+              <div>
+                <label for="luta">Muay Thai</label>
+                <input type="radio" name="categorias" id="luta">
+              </div>
+              <div>
+                <label for="cestas">Cestas Básicas</label>
+                <input type="radio" name="categorias" id="cestas">
+              </div>
+              <div>
+                <label for="reforço">Reforço Escolar</label>
+                <input type="radio" name="categorias" id="reforço">
+              </div>
+            </div>
           </section>
           <section class="conteinerConteudoNoticias">
           <div class="carrosselPageNoticias">
