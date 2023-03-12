@@ -6,12 +6,24 @@
   <main class="conteinerMasterNoticias">
       <div class="conteudoPageNoticias">
           <section class="conteinerMenuNoticias">
+            <div class="conteudoCategorias">
               <div>
-                  <label for="pesquisar">
-                      <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar" class="campoPesquisar">
-                  </label>
-                  <div class="buttonPesquisar"><i class="bi bi-search"></i></div>
+                <label for="violencia">Violência contra a mulher</label>
+                <input type="radio" name="categorias" id="violencia">
               </div>
+              <div>
+                <label for="luta">Muay Thai</label>
+                <input type="radio" name="categorias" id="luta">
+              </div>
+              <div>
+                <label for="cestas">Cestas Básicas</label>
+                <input type="radio" name="categorias" id="cestas">
+              </div>
+              <div>
+                <label for="reforço">Reforço Escolar</label>
+                <input type="radio" name="categorias" id="reforço">
+              </div>
+            </div>
           </section>
           <section class="conteinerConteudoNoticias">
           <div class="carrosselPageNoticias">
@@ -44,70 +56,6 @@
                     </div>
                   </div>
                 </div>
-<<<<<<< HEAD
-            </div>
-            </section>
-            <section class="conteinerMenuNoticias">
-                <div class="conteudoMenuNoticias">
-                    <div class="areaPesquisa">
-                      <label for="pesquisar">
-                          <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar" class="campoPesquisar">
-                      </label>
-                      <div class="conteinerbuttonPesquisar"><button type="button" class="buttonPesquisar"><i class="bi bi-search"></i></button></div>
-                    </div>
-                    <div class="areaCategoria">
-                      <label for="categoria"></label>
-                      <select id="categoria" name="categoria">
-                        <option value="escolha">Ações da ONG...</option>
-                        <option value="violencia">Violência contra a mulher</option>
-                        <option value="cestas">Cestas Básicas</option>
-                        <option value="luta">Muay Thai</option>
-                        <option value="reforço">Reforço escolar</option>
-                      </select>
-                    </div>
-                </div>
-            </section>
-            <section class="conteinerPublicacaoNoticias">
-              <div class="conteudoPublicacaoNoticias">
-                <div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </section>
-          </div>
-    </main>
-
-    <?php include 'footer.php'?>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
-=======
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -122,4 +70,3 @@
       </div>
   </main>
   <?php include 'footer.php'?>
->>>>>>> 27fc53735903509cf4111ff1e616454d8deef1f8

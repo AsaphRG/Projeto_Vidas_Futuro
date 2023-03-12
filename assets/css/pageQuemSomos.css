@@ -1,0 +1,39 @@
+
+html{
+    overflow-x: hidden !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-align: justify;
+}
+
+h2{
+    background-color: #3D65AD;
+    color: white;
+}
+
+/*Corpo da página*/
+
+.conteinerMasterQuemSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.conteudoQuemSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    max-width: 900px;
+}
