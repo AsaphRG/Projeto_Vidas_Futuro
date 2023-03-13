@@ -3,7 +3,7 @@
 class process_paymentController
 {
 
-    function index()
+    function indexcartao()
     {
         MercadoPago\SDK::setAccessToken("TEST-2576078414990249-013007-30bc3f5592e69fedfd0a7dd540530840-231662218");
 
@@ -80,7 +80,7 @@ class process_paymentController
     }
 
 
-    function boleto()
+    function index()
     {
 
 
@@ -114,7 +114,7 @@ class process_paymentController
 
         $payment->save();
 
-
+        
         $loader = new \Twig\Loader\FilesystemLoader('App/View');
         $twig = new \Twig\Environment($loader);
         $template = $twig->load('cobranca.html');

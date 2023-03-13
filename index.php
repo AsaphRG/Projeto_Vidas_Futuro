@@ -15,6 +15,8 @@ require_once 'App/Controller/AjudarController.php';
 require_once 'App/Controller/process_paymentController.php';
 require_once 'App/Controller/DoarController.php';
 require_once 'App/Controller/NoticiaController.php';
+require_once 'App/Controller/QuemsomosController.php';
+
 
 
 require_once 'App/Model/Home.php';

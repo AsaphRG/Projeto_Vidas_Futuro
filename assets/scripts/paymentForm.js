@@ -2,7 +2,7 @@ function formBuilder(paymentMethod) {
     let box = document.querySelector(".conteinerFormasDoacao");
 
     let container = document.createElement("form");
-    container.setAttribute("method", "GET");
+    container.setAttribute("method", "POST");
     container.setAttribute("action", "");
     switch (paymentMethod) {
         case "credito":

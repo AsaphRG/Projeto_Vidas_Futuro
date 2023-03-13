@@ -27,12 +27,6 @@ class Ajuda
     {
         $conn = new EasyPDO();
         $result = $conn->select("SELECT email FROM comoajudar WHERE email=:email", $parametros);
-
-        if (!$conn->affectedRows > 0) 
-        {
-            throw new Exception('Erro ao tentar buscar o dado na base');
-            return false; 
-        }
         
         return $result;
 
