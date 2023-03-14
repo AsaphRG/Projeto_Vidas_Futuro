@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a{
+    color: white;
+}
+
+.conteinerMasterLogin form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#3D65AD;
+    color:white;
+    height:45vh;
+    width: 30vw;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.campos label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.campos input{
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 10px;
+}
+
+
+.botaoEntrar{
+    background-color: white;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 10px;
+}
+
+
