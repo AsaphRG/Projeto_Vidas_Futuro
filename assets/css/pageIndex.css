@@ -165,7 +165,7 @@ body{
 
 .conteinerConteudoParceiros{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -177,7 +177,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 5px;
 }
 
 .fotoParceiro{
