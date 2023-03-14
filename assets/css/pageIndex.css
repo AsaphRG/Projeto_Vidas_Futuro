@@ -302,7 +302,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .conteinerParceiros{
+    .conteinerConteudoParceiros{
         flex-direction: column;
     }
     .ConteinerApresentacaoParceiro{
@@ -336,7 +336,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .conteinerParceiros{
+    .conteinerConteudoParceiros{
         flex-direction: column;
     }
     .ConteinerApresentacaoParceiro{
@@ -366,7 +366,7 @@ body{
             justify-content: center;
             align-items: center;
         }
-        .conteinerParceiros{
+        .conteinerConteudoParceiros{
             flex-direction: column;
         }
         .ConteinerApresentacaoParceiro{
@@ -405,7 +405,7 @@ body{
             justify-content: center;
             align-items: center;
         }
-        .conteinerParceiros{
+        .conteinerConteudoParceiros{
             flex-direction: column;
         }
         .ConteinerApresentacaoParceiro{
@@ -447,7 +447,7 @@ body{
             justify-content: center;
             align-items: center;
         }
-        .conteinerParceiros{
+        .conteinerConteudoParceiros{
             flex-direction: column;
         }
         .ConteinerApresentacaoParceiro{
@@ -489,7 +489,7 @@ body{
             justify-content: center;
             align-items: center;
         }
-        .conteinerParceiros{
+        .conteinerConteudoParceiros{
             flex-direction: column;
         }
         .ConteinerApresentacaoParceiro{
