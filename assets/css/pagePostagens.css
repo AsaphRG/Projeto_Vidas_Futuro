@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.conteinerMasterPostagensCabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 1px solid black;
+}
+
+.conteinerMasterPostagensCabecalho section{
+    padding: 0px 20px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.campoPesquisa{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.conteinerMasterPostagens{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.conteudoPostagensMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid black;
+}
+
+.conteudoPostagensMenu a{
+    color: black;
+    font-size: 18px;
+    padding: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudoPostagensMenu a.active{
+    background-color: #3D65AD;
+    color: white;
+    width: 60%;
+}
+
+.conteudoPostagensMenu a:hover{
+    background-color: #3D65AD;
+    color: white;
+    width: 60%;
+}
+
+.conteudoPostagens{
+    background-color: rgb(216, 209, 199);
+    flex: 4;
+}
+
+.conteinerMasterPostagensRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 250px;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+.conteudoPostagens{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.conteinerMasterPostagensRodape p{
+    text-align: center;
+}
