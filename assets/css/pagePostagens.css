@@ -14,6 +14,8 @@ a{
     text-decoration: none;
 }
 
+/*Cabeçalho*/
+
 .conteinerMasterPostagensCabecalho{
     display: flex;
     flex-direction: row;
@@ -31,6 +33,8 @@ a{
 .logo{
     width: 50px;
 }
+
+  /*Conteudo*/
 
 .conteinerMasterPostagens{
     display: flex;
