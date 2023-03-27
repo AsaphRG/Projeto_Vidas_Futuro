@@ -30,13 +30,13 @@
                         <a class="nav-link" target="_self" href="#">Nova Postagem</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" target="_self" href="#">Postagens</a>
+                        <a class="nav-link" target="_self" href="./pagePostagens.html">Postagens</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#" target="_self" aria-disabled="true" title="Em breve Disponivel">Estátisticas</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pageConfigPostagem.html" target="_self">Configurações</a>
+                        <a class="nav-link active" href="./pageConfigPostagem.html" target="_self">Configurações</a>
                       </li>
                     </li>
                     <li class="nav-item">
@@ -55,7 +55,25 @@
             </div>
             <div class="areaConfig">
                 <section class="configConteudo">
-                    ...
+                    <h5>Configurar novo administrador</h5>
+                    <form action="" method="post" class="cadastroAdmin">
+                        <div>
+                            <label for="usuario">Nome de Usuário</label>
+                            <input type="text" name="usuario" id="usuario">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha">
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-primary">Cadastrar</button>
+                        </div>
+                    </form>
                 </section>
             </div>
     </main>

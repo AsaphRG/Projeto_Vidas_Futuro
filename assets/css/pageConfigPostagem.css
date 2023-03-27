@@ -95,6 +95,34 @@ a{
     padding: 20px;
 }
 
+.cadastroAdmin{
+    margin: 25px 0px;
+}
+
+.cadastroAdmin div{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastroAdmin label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cadastroAdmin input{
+    width: 50%;
+    height: 35px;
+    font-size: 14px;
+    outline: none;
+    padding: 10px;
+}
+
+.cadastroAdmin button{
+    width: 50%;
+    height: 35px;
+}
+
 /*Rodapé*/
 .conteinerMasterPostagensRodape{
     display: flex;
