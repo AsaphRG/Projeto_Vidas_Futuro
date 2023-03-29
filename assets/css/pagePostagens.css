@@ -14,13 +14,15 @@ a{
     text-decoration: none;
 }
 
+/*Cabeçalho*/
+
 .conteinerMasterPostagensCabecalho{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid black;
 }
 
@@ -32,19 +34,13 @@ a{
     width: 50px;
 }
 
-.campoPesquisa{
-    width: 350px;
-    height: 30px;
-    border-radius: 5px;
-    padding-left: 10px;
-}
+  /*Conteudo*/
 
 .conteinerMasterPostagens{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 90vh;
-
+    min-height: 100vh;
 }
 
 .conteudoPostagensMenu{
@@ -53,12 +49,13 @@ a{
     justify-content: center;
     align-items: center;
     flex: 1;
+    min-height: 100vh;
     border-right: 1px solid black;
 }
 
 .conteudoPostagensMenu a{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px 0px;
     font-weight: bold;
     text-align: center;
@@ -67,20 +64,74 @@ a{
 .conteudoPostagensMenu a.active{
     background-color: #3D65AD;
     color: white;
-    width: 60%;
+    width: 200px;
 }
 
 .conteudoPostagensMenu a:hover{
     background-color: #3D65AD;
     color: white;
-    width: 60%;
+    width: 200px;
 }
+
+[aria-disabled="true"] {
+    opacity: 0.5;
+  }
 
 .conteudoPostagens{
+    padding: 50px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(216, 209, 199);
-    flex: 4;
+    width: 100%;
+    min-height: 100%;
 }
 
+.areaConteudo{
+    background-color: white;
+    width: 90%;
+    min-height: 95vh;
+    padding: 20px;
+}
+
+.buttonGerenciar{
+    color: #3D65AD;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.postagemGerenciamento{
+    width: 70vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 10px 0px;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gerenciar{
+    display: flex;
+    flex-direction: row;
+}
+
+.capaNoticia{
+    width: 200px;
+}
+
+/*Rodapé*/
 .conteinerMasterPostagensRodape{
     display: flex;
     flex-direction: column;
@@ -92,13 +143,6 @@ a{
     padding-top: 25px;
 }
 
-.conteudoPostagens{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
 
 .conteinerMasterPostagensRodape p{
     text-align: center;

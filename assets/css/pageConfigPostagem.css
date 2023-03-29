@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cabeçalho*/
+a{
+    text-decoration: none;
+}
+
+.conteinerMasterPostagensCabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.conteinerMasterPostagensCabecalho section{
+    padding: 0px 20px;
+}
+
+.logo{
+    width: 50px;
+}
+
+  /*Conteudo*/
+
+.conteinerMasterPostagens{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.conteudoPostagensMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+    border-right: 1px solid black;
+}
+
+.conteudoPostagensMenu a{
+    color: black;
+    font-size: 16px;
+    padding: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.conteudoPostagensMenu a.active{
+    background-color: #3D65AD;
+    color: white;
+    width: 200px;
+}
+
+.conteudoPostagensMenu a:hover{
+    background-color: #3D65AD;
+    color: white;
+    width: 200px;
+}
+
+[aria-disabled="true"] {
+    opacity: 0.5;
+  }
+
+.areaConfig{
+    padding: 30px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 209, 199);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.configConteudo{
+    background-color: white;
+    width: 95%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.cadastroAdmin{
+    margin: 25px 0px;
+}
+
+.cadastroAdmin div{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastroAdmin label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cadastroAdmin input{
+    width: 50%;
+    height: 35px;
+    font-size: 14px;
+    outline: none;
+    padding: 10px;
+}
+
+.cadastroAdmin button{
+    width: 50%;
+    height: 35px;
+}
+
+/*Rodapé*/
+.conteinerMasterPostagensRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 250px;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+
+.conteinerMasterPostagensRodape p{
+    text-align: center;
+}
