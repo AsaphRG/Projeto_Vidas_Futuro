@@ -18,6 +18,7 @@ require_once 'App/Controller/NoticiaController.php';
 require_once 'App/Controller/QuemsomosController.php';
 require_once 'App/Controller/LoginController.php';
 require_once 'App/Controller/PostagemController.php';
+require_once 'App/Controller/LogoutController.php';
 
 
 
