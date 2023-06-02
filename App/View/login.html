@@ -1,9 +1,9 @@
+{% if msg %}
+<div class="alert alert-danger" role="alert">
+    <h5> {{msg}} </h5>
+</div>
+{% endif %}
 <main class="conteinerMasterDoar">
-    {% if msg %}
-    <div class="alert alert-danger" role="alert">
-        {{msg}}
-    </div>
-    {% endif %}
     <form action="http://localhost/Projeto_Vidas_Futuro/index.php" method="POST" class="formulario">
         <div class="campos">
             <label for="email">Email</label>

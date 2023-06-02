@@ -11,7 +11,7 @@ require_once 'App/Core/Core.php';
 
 require_once 'App/Controller/HomeController.php';
 require_once 'App/Controller/ErroController.php';
-require_once 'App/Controller/AjudarController.php';
+require_once 'App/Controller/AjudaController.php';
 require_once 'App/Controller/process_paymentController.php';
 require_once 'App/Controller/DoarController.php';
 require_once 'App/Controller/NoticiaController.php';
@@ -19,11 +19,15 @@ require_once 'App/Controller/QuemsomosController.php';
 require_once 'App/Controller/LoginController.php';
 require_once 'App/Controller/PostagemController.php';
 require_once 'App/Controller/LogoutController.php';
-
+require_once 'App/Controller/ConfiguracaoController.php';
+require_once 'App/Controller/UsuarioController.php';
+require_once 'App/Controller/ListarusuarioController.php';
+require_once 'App/Controller/AlterarusuarioController.php';
+require_once 'App/Controller/AtualizarUsuarioController.php';
 
 
 require_once 'App/Model/Home.php';
-require_once 'App/Model/Ajudar.php';
+require_once 'App/Model/Ajuda.php';
 require_once 'App/Model/Usuario.php';
 
 require_once 'vendor/autoload.php';
@@ -42,14 +46,13 @@ if ($sendLogin) {
     $parametros = [
 
         ':email' => $email,
-        ':senha' => $senha,
     ];
     
     $loginController = new LoginController();
     $usuario = $loginController->loginUsuario($parametros);
     
 
-    if ($usuario) {
+    if (password_verify($senha, $usuario[0]['senha'])) {
 
         $login = $loginController->iniciarSessaoUsuario($usuario);
         $url_destino = LOCAL_HOST.'/postagem';

@@ -1,0 +1,76 @@
+<menu class="conteinerMasterPostagensCabecalho">
+    <section>
+        <img class="logo" src="assets/imagens/logo.png" alt="Logo do site">
+</section>
+<section>
+    <h1>Instituto Vidas pelo Futuro</h1>
+</section>
+</menu>
+{% if msg %}
+<div class="alert alert-danger" role="alert">
+    <h5> {{msg}} </h5>
+</div>
+{% endif %}
+<main class="conteinerMasterPostagens">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse conteudoPostagensMenu" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column menuPostagem">
+                  <li class="nav-item">
+                    <a class="nav-link" target="_self" href="./pageNovaPostagem.html">Nova Postagem</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_self" href="postagem">Postagens</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_self" aria-disabled="true" title="Em breve Disponivel">Estátisticas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="configuracao" target="_self">Configurações</a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="logout" target="_self">Sair</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+            <footer class="conteinerMasterPostagensRodape">
+                <div>
+                    <p>Todos os diretos reservados ao <b>Instituto Vidas pelo Futuro.</b> &copy;</p>
+                </div>
+            </footer>
+        </div>
+        <div class="areaConfig">
+            <section class="configConteudo">
+                <h5>Alterar Usuário {{nome}}</h5>
+                <form action="http://localhost/Projeto_Vidas_Futuro/AtualizarUsuario" method="POST" class="cadastroAdmin">
+                    <div>
+                        <label for="usuario">Nome de Usuário</label>
+                        <input value="{{nome}}" type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input value="{{email}}" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input value="" type="password" name="senha" id="senha">
+                    </div>
+
+                    <div>
+                      <input type="submit" name="SendAlterarUsuario" class="btn btn-primary" value="Salvar" >
+                    </div>
+                </form>
+                <div>
+                  <a href="http://localhost/Projeto_Vidas_Futuro/listarusuario" class="btn btn-primary">Listar Usuario</a>
+                </div>
+            </section>
+        </div>
+</main>

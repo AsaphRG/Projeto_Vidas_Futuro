@@ -6,7 +6,7 @@ class LogoutController
     {
         $loader = new \Twig\Loader\FilesystemLoader('App/View');
         $twig = new \Twig\Environment($loader);
-        $template = $twig->load('erro.html');
+        $template = $twig->load('login.html');
 
         unset(
             $_SESSION['id'],
@@ -15,9 +15,8 @@ class LogoutController
             $_SESSION['senha']
         );
 
-        $parametros['msg'] = $_SESSION['msg'] = "<h5 classe='alert-heading'>Deslogado com sucesso! <h5>";
-        $url_destino = LOCAL_HOST . '/login';
-        header("Location: $url_destino");
+        $parametros['msg']  = " Deslogado com sucesso!";
+        
 
         $conteudo = $template->render($parametros);
         echo $conteudo;

@@ -1,6 +1,6 @@
 <?php
 
-class AjudarController
+class AjudaController
 {
     function index()
     {
@@ -14,11 +14,11 @@ class AjudarController
                 $parametro_dados_contato = vazio($parametro_dados);
 
                 if (!$parametro_dados_contato) {
-                    $mensagem['msg'] = 'Existem campos em branco no formulário. Por favor, preencha todos os campos antes de prosseguir.';
+                    $mensagem['msg'] = '<h5> Existem campos em branco no formulário. Por favor, preencha todos os campos antes de prosseguir. </h5>';
 
                     $loader = new \Twig\Loader\FilesystemLoader('App/View');
                     $twig = new \Twig\Environment($loader);
-                    $template = $twig->load('ajudar.html');
+                    $template = $twig->load('ajuda.html');
 
                     $conteudo = $template->render($mensagem);
                     echo $conteudo;
@@ -26,7 +26,7 @@ class AjudarController
                 } else {
 
                     $nome = limparStr($parametro_dados_contato['nome']);
-                    $email = filter_var($parametro_dados_contato['email']);
+                    $email = filter_var($parametro_dados_contato['email'], FILTER_VALIDATE_EMAIL);
                     $telefone = validarTelefoneCelularEFixo($parametro_dados_contato['telefone']);
 
                     if ($email && $telefone) {
@@ -61,7 +61,7 @@ class AjudarController
 
                         $loader = new \Twig\Loader\FilesystemLoader('App/View');
                         $twig = new \Twig\Environment($loader);
-                        $template = $twig->load('ajudar.html');
+                        $template = $twig->load('ajuda.html');
 
                         $conteudo = $template->render($mensagem);
                         echo $conteudo;
@@ -72,7 +72,7 @@ class AjudarController
 
                         $loader = new \Twig\Loader\FilesystemLoader('App/View');
                         $twig = new \Twig\Environment($loader);
-                        $template = $twig->load('ajudar.html');
+                        $template = $twig->load('ajuda.html');
 
                         $conteudo = $template->render($mensagem);
                         echo $conteudo;
@@ -83,7 +83,7 @@ class AjudarController
 
                 $loader = new \Twig\Loader\FilesystemLoader('App/View');
                 $twig = new \Twig\Environment($loader);
-                $template = $twig->load('ajudar.html');
+                $template = $twig->load('ajuda.html');
 
                 $conteudo = $template->render();
                 echo $conteudo;
