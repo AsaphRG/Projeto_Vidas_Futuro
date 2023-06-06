@@ -68,6 +68,21 @@
                     <section class="parceiros conteinerParceiros">
                         <img class="fotoParceiro" src="assets/imagens/parceiros/selo.jpeg" alt="Imagem do nosso parceiro">
                     </section>
+                    <section class="parceiros conteinerParceiros">
+                        <img class="fotoParceiro" src="assets/imagens/parceiros/cmdca.jpeg" alt="Imagem do nosso parceiro">
+                    </section>
+                    <section class="parceiros conteinerParceiros">
+                        <img class="fotoParceiro" src="assets/imagens/parceiros/enel.jpeg" alt="Imagem do nosso parceiro">
+                    </section>
+                    <section class="parceiros conteinerParceiros">
+                        <img class="fotoParceiro" src="assets/imagens/parceiros/gpa.jpeg" alt="Imagem do nosso parceiro">
+                    </section>
+                    <section class="parceiros conteinerParceiros">
+                        <img class="fotoParceiro" src="assets/imagens/parceiros/mercadoLivre.jpeg" alt="Imagem do nosso parceiro">
+                    </section>
+                    <section class="parceiros conteinerParceiros">
+                        <img class="fotoParceiro" src="assets/imagens/parceiros/sap.jpeg" alt="Imagem do nosso parceiro">
+                    </section>
                 </div>
             </div>
         </div>
