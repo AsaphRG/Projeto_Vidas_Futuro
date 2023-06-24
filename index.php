@@ -5,10 +5,8 @@ require_once 'libs/Database/EasyPDO.php';
 require_once 'libs/lib_valida.php';
 require_once 'libs/lib_vazio.php';
 require_once 'libs/lib_valida_tel.php';
-require_once 'App/config/config.php';
+require_once 'App/Config/config.php';
 require_once 'App/Core/Core.php';
-
-
 require_once 'App/Controller/HomeController.php';
 require_once 'App/Controller/ErroController.php';
 require_once 'App/Controller/AjudaController.php';
@@ -22,14 +20,11 @@ require_once 'App/Controller/LogoutController.php';
 require_once 'App/Controller/ConfiguracaoController.php';
 require_once 'App/Controller/UsuarioController.php';
 require_once 'App/Controller/ListarusuarioController.php';
-require_once 'App/Controller/AlterarusuarioController.php';
+require_once 'App/Controller/AlterarUsuarioController.php';
 require_once 'App/Controller/AtualizarUsuarioController.php';
-
-
 require_once 'App/Model/Home.php';
 require_once 'App/Model/Ajuda.php';
 require_once 'App/Model/Usuario.php';
-
 require_once 'vendor/autoload.php';
 
 $url = filter_input(INPUT_GET, 'url');
